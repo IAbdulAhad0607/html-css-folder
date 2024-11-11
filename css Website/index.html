@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salt N Pepper Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+           <img src="LOGO.PNG" class="imgi" />
+            <nav>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#menu">Publictaions</a></li>
+                    <li><button type="franchise" class="btns">Get a franchise</button></li>
+                    <li><button type="order" class="btnn">Order Online</button></li>
+         
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="slider">
+        <!-- Radio buttons for each slide -->
+        <input type="radio" name="slider" id="slide1" checked>
+        <input type="radio" name="slider" id="slide2">
+        <input type="radio" name="slider" id="slide3">
+        <input type="radio" name="slider" id="slide4">
+
+        <div class="slides">
+            <!-- Slide 1 -->
+            <div class="slide">
+                <img src="img1.jpg" alt="Image 1">
+            </div>
+            <!-- Slide 2 -->
+            <div class="slide">
+                <img src="img2.jpg" alt="Image 2">
+            </div>
+            <!-- Slide 3 -->
+            <div class="slide">
+                <img src="img3.jpg" alt="Image 3">
+            </div>
+            <!-- Slide 4 -->
+            <div class="slide">
+                <img src="img4.jpg" alt="Image 4">
+            </div>
+        </div>
+
+        <!-- Navigation buttons -->
+        <div class="navigation">
+            <label for="slide1" class="nav-btn"></label>
+            <label for="slide2" class="nav-btn"></label>
+            <label for="slide3" class="nav-btn"></label>
+            <label for="slide4" class="nav-btn"></label>
+        </div>
+    </div>
+
+    <!-- Home Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-text">
+            <h2>Welcome to Salt N Pepper </h2>
+            <h2>Restaurants! Our Brands</h2>
+            <p>Please click our brands below for further information, reservations or to order online!            </p><br>
+
+            <!-- <a href="#menu" class="btn">Explore Menu</a> -->
+            <div class="row">
+                <img src="restaurant.webp" alt="webs" class="imagep">
+                <img src="express.webp" alt="webs" class="imagec">
+                <img src="village.webp" alt="webs" class="imaged">
+            </div>
+            <div class="rown">
+                <button type="order" class="btn-ctn">Order Now</button> 
+                <button type="order" class="btn-dtn">Order Now</button>
+                <button type="order" class="btn-ttn">Order Now</button>
+        </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h1>Introduction</h1>
+            <p>The Salt'n Pepper is Pakistan's most recognized and distinguished hospitality brand with a history of market innovation and excellence in restaurants chain operation. The Salt'n Pepper Restaurants are regarded and respected as the number one restaurant entity in Pakistan.</p>
+
+               <p> The Salt'n Pepper Restaurants are an example of gracious dinning, outstanding service, extraordinary classic and contemporary cuisine. The restaurants have become the ultimate dinning destinations in Lahore. From family occasions to business dinners and moments of the heart, Its a place is where unforgettable memories are made.</p>
+                
+               <p> The first Salt'n Pepper Restaurant on the Lahore Mall Road was established in 1983 by hotelier/restaurant entrepreneur Mahmood Akbar, considered by many as the pioneer hotelier and restaurateur in Pakistan.</p>
+                
+               <p> Foodconsults (Pvt.) Limited the owing company of Salt' n Pepper Restaurants, which has its Headquarter in Lahore, prides itself on developing Pakistan's first national chain of restaurants. For over 3 decades, the group's focus has been to provide their guests with an exceptional dining experience. The group's profile includes expertise in Pakistani and Continental cuisine, along with Fast Food.</p>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <h3>Grilled Chicken</h3>
+                    <p>Delicious grilled chicken served with our special sauce.</p>
+                    <span>$15</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Beef Steak</h3>
+                    <p>Succulent beef steak grilled to perfection.</p>
+                    <span>$20</span>
+                </div>
+                <!-- Add more menu items here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Salt N Pepper. All rights reserved.</p>
+    </footer>
+</body>
+</html>
